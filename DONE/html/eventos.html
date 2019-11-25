@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Engenharia de Software</title>
+		<link rel="stylesheet" href="../layout/css/eventos.css">
+		<link rel="icon" type="image/png" href="../layout/img/index/unaerp_icon.png"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<style type="text/css">
+			#table-grade-curricular {
+				border-collapse: collapse;
+				width: 100%;
+			}
+			#table-grade-curricular td, #table-grade-curricular th {
+				border: 1px solid #ddd;
+				padding: 12px;
+			}
+			#table-grade-curricular tr:nth-child(even){background-color: #f2f2f2;}
+
+			#table-grade-curricular tr:hover {background-color: #ddd;}
+
+			#table-grade-curricular th {
+				padding-top: 12px;
+				padding-bottom: 12px;
+				text-align: left;
+				background-color: #341933;
+				color: white;
+			}
+			#dirigentes-list ul {
+				list-style-type: none;
+				background: #4F4F4F;
+				padding: 21px;
+			}
+			#dirigentes-list ul li {
+				padding: 4px;
+				margin-left: 24px;
+			}
+			#dirigentes-list ul li p {
+				color: #FFF;
+			}
+			#dirigentes-list ul li .sub {
+				font-size: 21px;
+				color: #000;
+			}
+			#digirentes-list li:first-child a {
+				height: 40px;
+				line-height: 40px;
+			}
+			div.polaroid {
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				text-align: center;
+			}
+			div.polaroid a {
+				text-decoration: none;
+			}
+			div.img-container {
+				padding: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<a href="https://www.unaerp.br/" target="_blank"><img id="logotipo-unaerp" src="../layout/img/index/unaerp_logo.png" alt="Logotipo"/></a>
+				<a href="index.html"><img id="logotipo" src="../layout/img/index/eng_software_logo.png" alt="Logotipo"/></a>
+				<!--<img id="carrinho" src="../layout/img/eng_software_logo.png" alt="Logotipo">
+				<img id="user" src="../layout/img/eng_software_logo.png" alt="Logotipo">-->
+			</div>
+
+			<div class="header-black"><span id="animation-header"><img id="imagem-invertida" src="../layout/img/index/gif/walking.gif"/></span><img class="img-header" src="../layout/img/index/gif/crash.gif"/></div>
+			
+			<div class="container">
+				<div class="row" align="center">
+					<nav id="menu">
+						<ul>
+							<li><a href="index.html">INICIO</a></li>
+							<li><a href="index.html#sobre">SOBRE</a></li>
+							<li><a href="docentes.html">DOCENTES</a></li>
+							<li><a href="eventos.html">EVENTOS</a></li>
+							<li><a href="contato.html">CONTATO</a></li>
+							<!--<li class="search">
+								<div class="input-group">
+							      <input type="search" placeholder="search">
+							      <span class="input-group-btn">
+							        <button type="button"><i class="fa fa-search"></i></button>
+							      </span>
+							    </div><!-- /input-group --><!--
+							</li>-->
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section class="row-container">
+			<div id="column-left" class="column side" style="background-color: #1C1C1C">
+				<div id="static-column">
+				</div>
+			</div>
+
+			<div id="column-middle" class="column middle" style="background-color: #DCDCDC;" align="center">
+				<h1 id="inicio" class="title">Eventos e atrações</h1>
+
+				<br/>
+
+				<h2 class="subtitle">Conic 2019</h2>
+
+				<div class="img-container-div">
+					<div class="polaroid">
+						<a href="https://www.unaerp.br/conic-unaerp" target="_blank"><img src="../layout/img/index/conic.png" alt="imagem conic 2019 UNAERP" style="width: 100%;"/><div class="img-container"><p>Congresso de iniciação científica e pesquisa UNAERP</p></div></a>
+					</div>
+				</div>
+
+				<h2 class="subtitle">Space Apps NASA Ribeirão Preto</h2>
+
+				<div class="img-container-div">
+					<div class="polaroid">
+						<a href="https://www.unaerp.br/conic-unaerp" target="_blank"><img src="../layout/img/index/spaceapps_ribeirao.jpg" alt="imagem NASA SpaceApps Ribeirão Preto 2019 UNAERP" style="width: 100%;"/><div class="img-container"><p>Hackathon Nasa Space Apps Ribeirão</p></div></a>
+					</div>
+				</div>
+
+				<h2 class="subtitle">HackRibeirão</h2>
+
+				<div class="img-container-div">
+					<div class="polaroid">
+						<a href="https://www.spaceappsribeirao.com/" target="_blank"><img src="../layout/img/index/hackribeirao.jpg" alt="imagem hackribeirão 2019" style="width: 100%;"/><div class="img-container"><p>Hackathon Ribeirão Preto</p></div></a>
+					</div>
+				</div>
+
+				<h2 id="sobre" class="subtitle">Semana da Engenharia</h2>
+
+				<div class="img-container-div">
+					<div class="polaroid">
+						<a href="https://www.unaerp.br/eventos/4-semana-da-engenharia-e-tecnologia" target="_blank"><img src="../layout/img/index/semana-da-engenharia.jpg" alt="imagem 4ª semana da Engenharia UNAERP" style="width: 100%;"/><div class="img-container"><p>4ª semana da Engenharia UNAERP</p></div></a>
+					</div>
+				</div>
+
+				<h2 class="subtitle">Visita BGS 2019</h2>
+
+				<div class="img-container-div">
+					<div class="polaroid">
+						<a href="" target="_blank"><img src="../layout/img/index/visita_bgs.jpg" alt="imagem visita técnica BGS UNAERP" style="width: 100%"><div class="img-container"><p>Visita técnica BGS 2019</p></div></a>
+					</div>
+				</div>
+
+				<h2 class="subtitle">Visita Luíza Labs</h2>
+
+				<div class="img-container-div">
+					<div class="polaroid">
+						<a href="" target="_blank"><img src="../layout/img/index/luiza_labs.png" alt="imagem visita técnica Luíza Labs UNAERP" style="width: 100%;"/><div class="img-container"><p>4ª semana da Engenharia UNAERP</p></div></a>
+					</div>
+				</div>
+
+				<br/><br/>
+			</div>
+
+			<div id="column-right" class="column side" style="background-color: #1C1C1C" align="center">
+			</div>
+		</section>
+		
+		<footer id="footer">
+			<div class="row row-cinza-claro">
+				<div class="container">
+					<div class="row">
+						
+						<div class="text-center" align="center">
+							<img class="logotipo-left" src="../layout/img/index/unaerp_logo_footer_ribeirao.png" alt="informações UNAERP Ribeirão Preto">
+							<img class="logotipo-middle" src="../layout/img/index/eng_software_logo_footer.png" alt="logo Engenharia de Software">
+							<img class="logotipo-right" src="../layout/img/index/unaerp_logo_footer_guaruja.png" alt="Informações UNAERP Guarujá">
+
+							<hr class="row-hr">
+
+							<ul class="footer-list">
+								<li><a href="https://www.facebook.com/universidadeunaerp/" target="_blank"><img class="" src="../layout/img/index/facebook_logo_footer.png" alt="link facebook UNAERP"></a></li>
+								<li><a href="https://www.youtube.com/user/tvunaerp" target="_blank"><img class="" src="../layout/img/index/youtube_logo_footer.png" alt="link canal TV UNAERP youtube"></a></li>
+								<li><a href="https://www.unaerp.br/" target="_blank"><img class="" src="../layout/img/index/unaerp_logo_footer_site.png" alt="link site UNAERP"></a></li>
+								<li><a href="https://github.com/projeto-integrador-unaerp/integrador-20192" target="_blank"><img class="" src="../layout/img/index/github_logo_footer.png" alt="link código do projeto github"></a></li>
+							</ul>
+
+							<hr class="row-hr">
+
+							<div class="container">
+								<p style="color: #000">Copyright © Engenharia de Software UNAERP. All rights reserved.</p>
+							</div>
+							<br/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
